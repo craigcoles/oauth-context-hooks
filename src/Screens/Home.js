@@ -15,8 +15,8 @@ function Home({ navigation }: Props): React.Node {
   const { auth, login, logout } = useAuth();
 
   const payload = {
-    username: "user@example.com",
-    password: "doorkeeper",
+    username: "admin@clickerme.com",
+    password: "password",
     grant_type: "password",
   };
 
@@ -35,6 +35,8 @@ function Home({ navigation }: Props): React.Node {
         <Button onClick={onClick}>
           {!auth.access_token ? "Login" : "Logout"}
         </Button>
+
+        <Link to="/admin">Admin</Link>
 
         <Text>
           {!auth.access_token ? "You are not logged in." : "You are logged in."}

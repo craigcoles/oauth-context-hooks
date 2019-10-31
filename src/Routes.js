@@ -8,6 +8,11 @@ const getRoutes = () => {
       exact: true,
       component: Screens.Home,
     },
+    {
+      path: "/admin",
+      exact: true,
+      component: Screens.Admin,
+    },
   ];
 };
 
