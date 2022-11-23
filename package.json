@@ -5,7 +5,7 @@
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@simpleweb/configs": "https://github.com/simpleweb/configs.git#0.0.2",
-    "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-options": "^5.2.5",
     "@storybook/addons": "^5.2.5",
     "@storybook/react": "^6.5.13",
